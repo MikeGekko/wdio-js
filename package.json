@@ -8,7 +8,8 @@
         "@wdio/spec-reporter": "^8.16.7"
     },
     "scripts": {
-        "wdio": "wdio run ./configs/wdio.conf.js ",
+        "wdio": "wdio run ./configs/wdio.conf.js",
+        "test:headless": "wdio run ./configs/wdio.conf.headless.js",
         "test:chrome:headless": "wdio run ./configs/wdio.conf.chrome.headless.js",
         "test:firefox:headless": "wdio run ./configs/wdio.conf.firefox.headless.js"
     },

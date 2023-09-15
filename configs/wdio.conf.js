@@ -1,3 +1,4 @@
+import {capabilities_chrome, capabilities_firefox} from './capabilities.js';
 import {TimelineService} from 'wdio-timeline-reporter/timeline-service.js';
 import configuration from '../configuration/configuration.js';
 
