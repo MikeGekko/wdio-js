@@ -1,74 +1,43 @@
 {
-  "start": "2023-09-15T18:04:02.458Z",
-  "end": "2023-09-15T18:04:13.196Z",
+  "start": "2023-09-15T18:20:55.273Z",
+  "end": "2023-09-15T18:20:55.273Z",
   "capabilities": {
-    "acceptInsecureCerts": false,
-    "browserName": "chrome",
-    "browserVersion": "116.0.5845.187",
-    "chrome": {
-      "chromedriverVersion": "116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.KxGUN6"
-    },
-    "fedcm:accounts": true,
-    "goog:chromeOptions": {
-      "debuggerAddress": "localhost:46215"
-    },
-    "networkConnectionEnabled": false,
-    "pageLoadStrategy": "normal",
-    "platformName": "linux",
-    "proxy": {},
-    "setWindowRect": true,
-    "strictFileInteractability": false,
-    "timeouts": {
-      "implicit": 0,
-      "pageLoad": 300000,
-      "script": 30000
-    },
-    "unhandledPromptBehavior": "dismiss and notify",
-    "webauthn:extension:credBlob": true,
-    "webauthn:extension:largeBlob": true,
-    "webauthn:extension:minPinLength": true,
-    "webauthn:extension:prf": true,
-    "webauthn:virtualAuthenticators": true,
-    "sessionId": "5dbd52eac1436d266f9112c3f1a824a7"
+    "0": [
+      {
+        "browserName": "chrome",
+        "goog:chromeOptions": {
+          "args": [
+            "--headless",
+            "--window-size=1920,1080"
+          ]
+        }
+      }
+    ],
+    "1": {
+      "browserName": "firefox",
+      "moz:firefoxOptions": {
+        "args": [
+          "--headless",
+          "--width=1920",
+          "--height=1080"
+        ]
+      }
+    }
   },
-  "host": "0.0.0.0",
-  "port": 42109,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 10738,
-  "suites": [
-    {
-      "title": "Search Test",
-      "duration": 10072,
-      "start": "2023-09-15T18:04:02.856Z",
-      "end": "2023-09-15T18:04:12.928Z",
-      "tests": [
-        {
-          "title": "Search for a product",
-          "start": "2023-09-15T18:04:02.858Z",
-          "end": "2023-09-15T18:04:12.926Z",
-          "duration": 10068,
-          "state": "failed",
-          "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694801053142.jpeg"
-          ],
-          "error": {
-            "type": "Error",
-            "message": "Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found",
-            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/home.page.js:11:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.8532305921952865:11:9)"
-          }
-        }
-      ],
-      "hooks": []
-    }
-  ],
+  "mochaOpts": {
+    "timeout": 60000,
+    "ui": "bdd"
+  },
+  "duration": 0,
+  "suites": [],
   "specs": [
     "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js"
   ],
   "state": {
     "passed": 0,
-    "failed": 1,
+    "failed": 0,
     "skipped": 0
   }
 }

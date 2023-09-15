@@ -1,0 +1,65 @@
+{
+  "start": "2023-09-15T18:21:07.190Z",
+  "end": "2023-09-15T18:21:16.211Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "117.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20230824132758",
+    "moz:geckodriverVersion": "0.33.0",
+    "moz:headless": true,
+    "moz:platformVersion": "6.2.0-1011-azure",
+    "moz:processID": 1931,
+    "moz:profile": "/tmp/rust_mozprofilenyy8RP",
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "sessionId": "c043729a-2238-4064-8c5a-ea95c1ad6289"
+  },
+  "host": "0.0.0.0",
+  "port": 41819,
+  "baseUrl": "https://rozetka.com.ua",
+  "framework": "mocha",
+  "duration": 9021,
+  "suites": [
+    {
+      "title": "Search Test",
+      "duration": 1291,
+      "start": "2023-09-15T18:21:13.499Z",
+      "end": "2023-09-15T18:21:14.790Z",
+      "tests": [
+        {
+          "title": "Search for a product",
+          "start": "2023-09-15T18:21:13.499Z",
+          "end": "2023-09-15T18:21:14.741Z",
+          "duration": 1242,
+          "state": "passed",
+          "screenshots": [
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694802074943.jpeg"
+          ]
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0
+  }
+}

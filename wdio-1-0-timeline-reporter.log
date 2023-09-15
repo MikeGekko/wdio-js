@@ -1,0 +1,94 @@
+{
+  "start": "2023-09-15T18:21:07.182Z",
+  "end": "2023-09-15T18:22:38.507Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "117.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20230824132758",
+    "moz:geckodriverVersion": "0.33.0",
+    "moz:headless": true,
+    "moz:platformVersion": "6.2.0-1011-azure",
+    "moz:processID": 1938,
+    "moz:profile": "/tmp/rust_mozprofileV0H7J9",
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "sessionId": "4b114d9f-8ed2-41e4-b8ab-1ae102f04779"
+  },
+  "host": "0.0.0.0",
+  "port": 38305,
+  "baseUrl": "https://rozetka.com.ua",
+  "framework": "mocha",
+  "duration": 91325,
+  "suites": [
+    {
+      "title": "Filter Test",
+      "duration": 21261,
+      "start": "2023-09-15T18:21:13.308Z",
+      "end": "2023-09-15T18:21:34.569Z",
+      "tests": [
+        {
+          "title": "Search for a product",
+          "start": "2023-09-15T18:21:13.309Z",
+          "end": "2023-09-15T18:21:14.045Z",
+          "duration": 736,
+          "state": "passed",
+          "screenshots": []
+        },
+        {
+          "title": "Filter by price",
+          "start": "2023-09-15T18:21:14.055Z",
+          "end": "2023-09-15T18:21:24.468Z",
+          "duration": 10413,
+          "state": "failed",
+          "screenshots": [
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694802074333.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Can't call click on element with selector \"rz-sort > select\" because element wasn't found",
+            "stack": "Error: Can't call click on element with selector \"rz-sort > select\" because element wasn't found\n    at async SearchPage.filterResult (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:14:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.858978398431044:16:9)"
+          }
+        },
+        {
+          "title": "Validate filtered result",
+          "start": "2023-09-15T18:21:24.476Z",
+          "end": "2023-09-15T18:21:34.565Z",
+          "duration": 10089,
+          "state": "failed",
+          "screenshots": [
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694802084560.jpeg",
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694802094630.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found",
+            "stack": "Error: Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found\n    at async SearchPage.getFirstSecondItemPrice (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:20:21)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.858978398431044:21:22)"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js"
+  ],
+  "state": {
+    "passed": 1,
+    "failed": 2,
+    "skipped": 0
+  }
+}
