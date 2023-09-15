@@ -1,17 +1,17 @@
 {
-  "start": "2023-09-15T18:01:09.638Z",
-  "end": "2023-09-15T18:01:40.837Z",
+  "start": "2023-09-15T18:04:02.470Z",
+  "end": "2023-09-15T18:04:33.722Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.187",
     "chrome": {
       "chromedriverVersion": "116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.wKYsh7"
+      "userDataDir": "/tmp/.org.chromium.Chromium.uMKSlh"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:36535"
+      "debuggerAddress": "localhost:35839"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,62 +30,62 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "3e54624da07fcc9b99e85015ec8e1f25"
+    "sessionId": "59d1f06f2e1c51a772a4cbe613e44dc2"
   },
   "host": "0.0.0.0",
-  "port": 39759,
+  "port": 44261,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 31199,
+  "duration": 31252,
   "suites": [
     {
       "title": "Filter Test",
-      "duration": 30514,
-      "start": "2023-09-15T18:01:10.080Z",
-      "end": "2023-09-15T18:01:40.594Z",
+      "duration": 30587,
+      "start": "2023-09-15T18:04:02.879Z",
+      "end": "2023-09-15T18:04:33.466Z",
       "tests": [
         {
           "title": "Search for a product",
-          "start": "2023-09-15T18:01:10.080Z",
-          "end": "2023-09-15T18:01:20.139Z",
-          "duration": 10059,
+          "start": "2023-09-15T18:04:02.880Z",
+          "end": "2023-09-15T18:04:13.009Z",
+          "duration": 10129,
           "state": "failed",
           "screenshots": [],
           "error": {
             "type": "Error",
             "message": "Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found",
-            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/home.page.js:11:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.021849580891512455:11:9)"
+            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/home.page.js:11:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.6258011709626388:11:9)"
           }
         },
         {
           "title": "Filter by price",
-          "start": "2023-09-15T18:01:20.143Z",
-          "end": "2023-09-15T18:01:30.371Z",
+          "start": "2023-09-15T18:04:13.020Z",
+          "end": "2023-09-15T18:04:23.248Z",
           "duration": 10228,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694800880344.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694801053228.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call click on element with selector \"rz-sort > select\" because element wasn't found",
-            "stack": "Error: Can't call click on element with selector \"rz-sort > select\" because element wasn't found\n    at async SearchPage.filterResult (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:14:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.021849580891512455:16:9)"
+            "stack": "Error: Can't call click on element with selector \"rz-sort > select\" because element wasn't found\n    at async SearchPage.filterResult (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:14:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.6258011709626388:16:9)"
           }
         },
         {
           "title": "Validate filtered result",
-          "start": "2023-09-15T18:01:30.372Z",
-          "end": "2023-09-15T18:01:40.592Z",
-          "duration": 10220,
+          "start": "2023-09-15T18:04:23.250Z",
+          "end": "2023-09-15T18:04:33.461Z",
+          "duration": 10211,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694800890569.jpeg",
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694800900784.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694801063444.jpeg",
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1694801073673.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found",
-            "stack": "Error: Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found\n    at async SearchPage.getFirstSecondItemPrice (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:20:21)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.021849580891512455:21:22)"
+            "stack": "Error: Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found\n    at async SearchPage.getFirstSecondItemPrice (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:20:21)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/filter.spec.js?invalidateCache=0.6258011709626388:21:22)"
           }
         }
       ],
