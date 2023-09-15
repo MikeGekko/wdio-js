@@ -9,6 +9,7 @@ before(async () => {
 describe('Search Test', () => {
     it('Search for a product', async () => {
         await homePage.search(searchWord);
-        expect(searchPage.searchResultLabel()).toHaveTextContaining(searchResult);
+        let result = await searchPage.getSearchResultLabelText()
+        expect(result).toEqual(searchResult);
     });
 });
