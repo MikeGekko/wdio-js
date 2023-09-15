@@ -1,5 +1,7 @@
 # wdio-js
 
+#***This project will fail on CI since rozetka.com.ua has a CAPCHA***
+
 # Reporter
 Report page - https://mikegekko.github.io/wdio-js-ghactions/
 
@@ -18,4 +20,5 @@ Install project dependencies using: npm i
 # Run test
 
 Use: npm run test:chrome:headless - to run tests via Chrome
+
 Use: npm run test:firefox:headless - to run tests via Firefox
