@@ -1,17 +1,17 @@
 {
-  "start": "2023-09-15T17:40:58.881Z",
-  "end": "2023-09-15T17:41:30.157Z",
+  "start": "2023-09-15T17:44:35.490Z",
+  "end": "2023-09-15T17:45:06.916Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "116.0.5845.187",
     "chrome": {
       "chromedriverVersion": "116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.Fw5vHl"
+      "userDataDir": "/tmp/.org.chromium.Chromium.CizBXA"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:45913"
+      "debuggerAddress": "localhost:33421"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,62 +30,62 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "f974edbc9bdfcfbe35fd181637116d8e"
+    "sessionId": "80b7df00db164b2c71c7254f39ae5ad3"
   },
   "host": "0.0.0.0",
-  "port": 35191,
+  "port": 40427,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 31276,
+  "duration": 31426,
   "suites": [
     {
       "title": "Filter Test",
-      "duration": 30602,
-      "start": "2023-09-15T17:40:59.311Z",
-      "end": "2023-09-15T17:41:29.913Z",
+      "duration": 30488,
+      "start": "2023-09-15T17:44:36.193Z",
+      "end": "2023-09-15T17:45:06.681Z",
       "tests": [
         {
           "title": "Search for a product",
-          "start": "2023-09-15T17:40:59.312Z",
-          "end": "2023-09-15T17:41:09.374Z",
-          "duration": 10062,
+          "start": "2023-09-15T17:44:36.193Z",
+          "end": "2023-09-15T17:44:46.307Z",
+          "duration": 10114,
           "state": "failed",
           "screenshots": [],
           "error": {
             "type": "Error",
             "message": "Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found",
-            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js/wdio-js/test/pages/home.page.js:11:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.8634830602355146:11:9)"
+            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js/wdio-js/test/pages/home.page.js:11:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.19711263029036497:11:9)"
           }
         },
         {
           "title": "Filter by price",
-          "start": "2023-09-15T17:41:09.383Z",
-          "end": "2023-09-15T17:41:19.692Z",
-          "duration": 10309,
+          "start": "2023-09-15T17:44:46.309Z",
+          "end": "2023-09-15T17:44:56.495Z",
+          "duration": 10186,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799669664.jpeg"
+            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799886479.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call click on element with selector \"rz-sort > select\" because element wasn't found",
-            "stack": "Error: Can't call click on element with selector \"rz-sort > select\" because element wasn't found\n    at async SearchPage.filterResult (file:///home/runner/work/wdio-js/wdio-js/test/pages/search.page.js:14:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.8634830602355146:16:9)"
+            "stack": "Error: Can't call click on element with selector \"rz-sort > select\" because element wasn't found\n    at async SearchPage.filterResult (file:///home/runner/work/wdio-js/wdio-js/test/pages/search.page.js:14:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.19711263029036497:16:9)"
           }
         },
         {
           "title": "Validate filtered result",
-          "start": "2023-09-15T17:41:19.696Z",
-          "end": "2023-09-15T17:41:29.910Z",
-          "duration": 10214,
+          "start": "2023-09-15T17:44:56.498Z",
+          "end": "2023-09-15T17:45:06.679Z",
+          "duration": 10181,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799679886.jpeg",
-            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799690107.jpeg"
+            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799896659.jpeg",
+            "/home/runner/work/wdio-js/wdio-js/reports/report/file-1694799906865.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found",
-            "stack": "Error: Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found\n    at async SearchPage.getFirstSecondItemPrice (file:///home/runner/work/wdio-js/wdio-js/test/pages/search.page.js:20:21)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.8634830602355146:21:22)"
+            "stack": "Error: Can't call getText on element with selector \"li:nth-child(1) span[class=\"goods-tile__price-value\"]\" because element wasn't found\n    at async SearchPage.getFirstSecondItemPrice (file:///home/runner/work/wdio-js/wdio-js/test/pages/search.page.js:20:21)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js/wdio-js/test/specs/filter.spec.js?invalidateCache=0.19711263029036497:21:22)"
           }
         }
       ],
