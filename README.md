@@ -18,4 +18,5 @@ Install project dependencies using: npm i
 # Run test
 
 Use: npm run test:chrome:headless - to run tests via Chrome
+
 Use: npm run test:firefox:headless - to run tests via Firefox
