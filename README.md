@@ -1,8 +1,9 @@
 # wdio-js
 
 # Reporter
+Report page - https://mikegekko.github.io/wdio-js-ghactions/
 
-You can find run report in reports folder after test run
+Also you can find reporter in reports/report/index.htlm folder after test run
 
 # Setup
 
