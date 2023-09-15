@@ -1,5 +1,7 @@
 # wdio-js
 
+#***This project will fail on CI since rozetka.com.ua has a CAPCHA***
+
 # Reporter
 Report page - https://mikegekko.github.io/wdio-js-ghactions/
 
