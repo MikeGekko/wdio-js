@@ -140,7 +140,7 @@ export const config = {
             'timeline',
             {
                 outputDir: './reports/report',
-                filename: 'index.html',
+                fileName: 'index.html',
                 screenshotStrategy: 'on:error',
             },
         ],
