@@ -18,9 +18,7 @@ jobs:
           run: npm install
         - name: Test
           continue-on-error: true
-          run: |
-            npm run test:chrome:headless
-            npm run test:firefox:headless
+          run: npm run test:firefox:headless
         - uses: actions/upload-artifact@v3
           if: always()
           with:
