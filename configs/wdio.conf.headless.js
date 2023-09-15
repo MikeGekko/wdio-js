@@ -3,5 +3,5 @@ import {config as base} from './wdio.conf.js';
 
 export const config = {
     ...base,
-    capabilities: [capabilities_chrome, ...capabilities_firefox],
+    capabilities: [...capabilities_chrome, ...capabilities_firefox],
 };
