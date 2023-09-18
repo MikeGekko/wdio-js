@@ -19,6 +19,6 @@ describe('Filter Test', () => {
 
     it('Validate filtered result', async () => {
         let result = await searchPage.getFirstSecondItemPrice();
-        expect(parseInt(result[1])).toBeGreaterThan(parseInt(result[0]));
+        expect(parseFloat(result[1])).toBeGreaterThan(parseFloat(result[0]));
     });
 });
