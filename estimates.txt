@@ -1,0 +1,24 @@
+Search (Click and type, geting data from page)
+
+1.Type 'Smartphone' into search field
+2. Validate search result
+
+Filter (dropdown selection)
+
+1.Type 'Smartphone' into search field
+2. Filter by price
+3. Validate filter is working as expected
+
+Hover mouse test (hovering cursor over elements)
+
+1. Open catalog
+2. Hover mouse over Smartphones category
+3. Validate smartphones category is displayed
+
+New tab test (switching between tabs)
+
+1. Open rozetka.com
+2. Open new window and visit google.com
+3. Validate google.com is opened
+4. switch tab
+5. validate rozetka is opened
