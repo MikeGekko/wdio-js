@@ -1,4 +1,4 @@
-Search (Click and type, geting data from page)
+Search (Click and type, getting data from page)
 
 1.Type 'Smartphone' into search field
 2. Validate search result
