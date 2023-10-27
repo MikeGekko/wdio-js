@@ -1,0 +1,70 @@
+{
+  "start": "2023-10-27T13:16:29.770Z",
+  "end": "2023-10-27T13:16:53.501Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "firefox",
+    "browserVersion": "119.0",
+    "moz:accessibilityChecks": false,
+    "moz:buildID": "20231019122658",
+    "moz:geckodriverVersion": "0.33.0",
+    "moz:headless": true,
+    "moz:platformVersion": "6.2.0-1015-azure",
+    "moz:processID": 2202,
+    "moz:profile": "/tmp/rust_mozprofileC6Thwa",
+    "moz:shutdownTimeout": 60000,
+    "moz:webdriverClick": true,
+    "moz:windowless": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "sessionId": "f7869b10-9500-494d-8af7-a5c68a6adda2"
+  },
+  "host": "0.0.0.0",
+  "port": 37463,
+  "baseUrl": "https://rozetka.com.ua",
+  "framework": "mocha",
+  "duration": 23731,
+  "suites": [
+    {
+      "title": "Search Test",
+      "duration": 12483,
+      "start": "2023-10-27T13:16:39.243Z",
+      "end": "2023-10-27T13:16:51.726Z",
+      "tests": [
+        {
+          "title": "Search for a product",
+          "start": "2023-10-27T13:16:39.244Z",
+          "end": "2023-10-27T13:16:51.703Z",
+          "duration": 12459,
+          "state": "failed",
+          "screenshots": [
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412611931.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found",
+            "stack": "Error: Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found\n    at async SearchPage.getSearchResultLabelText (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:10:16)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.004878050800279254:12:22)"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}

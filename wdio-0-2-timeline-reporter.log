@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-27T13:16:16.660Z",
-  "end": "2023-10-27T13:16:29.361Z",
+  "start": "2023-10-27T13:16:15.131Z",
+  "end": "2023-10-27T13:16:20.255Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.117",
     "chrome": {
       "chromedriverVersion": "118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.CX0Etx"
+      "userDataDir": "/tmp/.org.chromium.Chromium.kq5Zv7"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:33705"
+      "debuggerAddress": "localhost:35001"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,33 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "0c445668ca7d8dea43f0ffd93b9c9145"
+    "sessionId": "cff42ab2845bacb6c970f19215a68872"
   },
   "host": "0.0.0.0",
-  "port": 43733,
+  "port": 42547,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 12701,
+  "duration": 5124,
   "suites": [
     {
-      "title": "Hover Test",
-      "duration": 10158,
-      "start": "2023-10-27T13:16:18.068Z",
-      "end": "2023-10-27T13:16:28.226Z",
+      "title": "New tab Test",
+      "duration": 4137,
+      "start": "2023-10-27T13:16:15.135Z",
+      "end": "2023-10-27T13:16:19.272Z",
       "tests": [
         {
-          "title": "Hover mouse over category",
-          "start": "2023-10-27T13:16:18.068Z",
-          "end": "2023-10-27T13:16:28.221Z",
-          "duration": 10153,
+          "title": "Switch tab",
+          "start": "2023-10-27T13:16:15.135Z",
+          "end": "2023-10-27T13:16:19.259Z",
+          "duration": 4124,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412589212.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412580156.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Can't call click on element with selector \"[id=\"fat-menu\"]\" because element wasn't found",
-            "stack": "Error: Can't call click on element with selector \"[id=\"fat-menu\"]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.13005143185273038:9:9)"
+            "message": "No window found with title, url or name matching \"/ROZETKA/\"",
+            "stack": "Error: No window found with title, url or name matching \"/ROZETKA/\"\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/newTab.spec.js?invalidateCache=0.31924495585080415:9:9)"
           }
         }
       ],
@@ -64,7 +64,7 @@
     }
   ],
   "specs": [
-    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js"
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/newTab.spec.js"
   ],
   "state": {
     "passed": 0,

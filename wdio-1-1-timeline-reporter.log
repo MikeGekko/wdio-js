@@ -1,17 +1,17 @@
 {
-  "start": "2023-09-21T09:27:43.428Z",
-  "end": "2023-09-21T09:28:03.952Z",
+  "start": "2023-10-27T13:16:30.009Z",
+  "end": "2023-10-27T13:16:55.364Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "firefox",
-    "browserVersion": "117.0",
+    "browserVersion": "119.0",
     "moz:accessibilityChecks": false,
-    "moz:buildID": "20230824132758",
+    "moz:buildID": "20231019122658",
     "moz:geckodriverVersion": "0.33.0",
     "moz:headless": true,
-    "moz:platformVersion": "6.2.0-1011-azure",
-    "moz:processID": 2070,
-    "moz:profile": "/tmp/rust_mozprofileElCswo",
+    "moz:platformVersion": "6.2.0-1015-azure",
+    "moz:processID": 2083,
+    "moz:profile": "/tmp/rust_mozprofileTZRXVI",
     "moz:shutdownTimeout": 60000,
     "moz:webdriverClick": true,
     "moz:windowless": false,
@@ -26,33 +26,33 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "804d6f33-f532-4fbe-825f-8435d8d15d34"
+    "sessionId": "7192bff1-7060-4c98-981a-8b414c3a2c93"
   },
   "host": "0.0.0.0",
-  "port": 36887,
+  "port": 37993,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 20524,
+  "duration": 25355,
   "suites": [
     {
-      "title": "Search Test",
-      "duration": 11014,
-      "start": "2023-09-21T09:27:51.930Z",
-      "end": "2023-09-21T09:28:02.944Z",
+      "title": "Hover Test",
+      "duration": 11628,
+      "start": "2023-10-27T13:16:42.652Z",
+      "end": "2023-10-27T13:16:54.280Z",
       "tests": [
         {
-          "title": "Search for a product",
-          "start": "2023-09-21T09:27:51.930Z",
-          "end": "2023-09-21T09:28:02.934Z",
-          "duration": 11004,
+          "title": "Hover mouse over category",
+          "start": "2023-10-27T13:16:42.653Z",
+          "end": "2023-10-27T13:16:54.275Z",
+          "duration": 11622,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1695288483004.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412614354.jpeg"
           ],
           "error": {
             "type": "Error",
-            "message": "Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found",
-            "stack": "Error: Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found\n    at async SearchPage.getSearchResultLabelText (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:10:16)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.3522497680349259:12:22)"
+            "message": "Can't call moveTo on element with selector \"//a[contains(text(), \"Смартфони, ТВ і електроніка\")]\" because element wasn't found",
+            "stack": "Error: Can't call moveTo on element with selector \"//a[contains(text(), \"Смартфони, ТВ і електроніка\")]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.4402416306028225:10:9)"
           }
         }
       ],
@@ -60,7 +60,7 @@
     }
   ],
   "specs": [
-    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js"
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js"
   ],
   "state": {
     "passed": 0,

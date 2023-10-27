@@ -1,0 +1,74 @@
+{
+  "start": "2023-10-27T13:16:16.717Z",
+  "end": "2023-10-27T13:16:29.055Z",
+  "capabilities": {
+    "acceptInsecureCerts": false,
+    "browserName": "chrome",
+    "browserVersion": "118.0.5993.117",
+    "chrome": {
+      "chromedriverVersion": "118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216})",
+      "userDataDir": "/tmp/.org.chromium.Chromium.nN0fjU"
+    },
+    "fedcm:accounts": true,
+    "goog:chromeOptions": {
+      "debuggerAddress": "localhost:34021"
+    },
+    "networkConnectionEnabled": false,
+    "pageLoadStrategy": "normal",
+    "platformName": "linux",
+    "proxy": {},
+    "setWindowRect": true,
+    "strictFileInteractability": false,
+    "timeouts": {
+      "implicit": 0,
+      "pageLoad": 300000,
+      "script": 30000
+    },
+    "unhandledPromptBehavior": "dismiss and notify",
+    "webauthn:extension:credBlob": true,
+    "webauthn:extension:largeBlob": true,
+    "webauthn:extension:minPinLength": true,
+    "webauthn:extension:prf": true,
+    "webauthn:virtualAuthenticators": true,
+    "sessionId": "a56318816591938c39c334fe4b19cbe9"
+  },
+  "host": "0.0.0.0",
+  "port": 42899,
+  "baseUrl": "https://rozetka.com.ua",
+  "framework": "mocha",
+  "duration": 12338,
+  "suites": [
+    {
+      "title": "Search Test",
+      "duration": 10715,
+      "start": "2023-10-27T13:16:17.294Z",
+      "end": "2023-10-27T13:16:28.009Z",
+      "tests": [
+        {
+          "title": "Search for a product",
+          "start": "2023-10-27T13:16:17.295Z",
+          "end": "2023-10-27T13:16:28.003Z",
+          "duration": 10708,
+          "state": "failed",
+          "screenshots": [
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412588947.jpeg"
+          ],
+          "error": {
+            "type": "Error",
+            "message": "Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found",
+            "stack": "Error: Can't call clearValue on element with selector \"[name=\"search\"]\" because element wasn't found\n    at async HomePage.search (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/home.page.js:13:9)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.8448517161329923:11:9)"
+          }
+        }
+      ],
+      "hooks": []
+    }
+  ],
+  "specs": [
+    "file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js"
+  ],
+  "state": {
+    "passed": 0,
+    "failed": 1,
+    "skipped": 0
+  }
+}
