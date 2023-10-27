@@ -1,6 +1,6 @@
 {
-  "start": "2023-10-27T13:16:30.009Z",
-  "end": "2023-10-27T13:16:55.364Z",
+  "start": "2023-10-27T13:17:05.551Z",
+  "end": "2023-10-27T13:17:40.019Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "firefox",
@@ -11,7 +11,7 @@
     "moz:headless": true,
     "moz:platformVersion": "6.2.0-1015-azure",
     "moz:processID": 2083,
-    "moz:profile": "/tmp/rust_mozprofileTZRXVI",
+    "moz:profile": "/tmp/rust_mozprofileZcTR0K",
     "moz:shutdownTimeout": 60000,
     "moz:webdriverClick": true,
     "moz:windowless": false,
@@ -26,33 +26,33 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "7192bff1-7060-4c98-981a-8b414c3a2c93"
+    "sessionId": "bee40da4-0aeb-48d0-9918-2a5a68aebdbc"
   },
   "host": "0.0.0.0",
-  "port": 37993,
+  "port": 32817,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 25355,
+  "duration": 34468,
   "suites": [
     {
       "title": "Hover Test",
-      "duration": 11628,
-      "start": "2023-10-27T13:16:42.652Z",
-      "end": "2023-10-27T13:16:54.280Z",
+      "duration": 25532,
+      "start": "2023-10-27T13:17:13.063Z",
+      "end": "2023-10-27T13:17:38.595Z",
       "tests": [
         {
           "title": "Hover mouse over category",
-          "start": "2023-10-27T13:16:42.653Z",
-          "end": "2023-10-27T13:16:54.275Z",
-          "duration": 11622,
+          "start": "2023-10-27T13:17:13.064Z",
+          "end": "2023-10-27T13:17:38.592Z",
+          "duration": 25528,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412614354.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412658758.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call moveTo on element with selector \"//a[contains(text(), \"Смартфони, ТВ і електроніка\")]\" because element wasn't found",
-            "stack": "Error: Can't call moveTo on element with selector \"//a[contains(text(), \"Смартфони, ТВ і електроніка\")]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.4402416306028225:10:9)"
+            "stack": "Error: Can't call moveTo on element with selector \"//a[contains(text(), \"Смартфони, ТВ і електроніка\")]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.7009028190905136:10:9)"
           }
         }
       ],

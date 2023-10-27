@@ -1,6 +1,6 @@
 {
-  "start": "2023-10-27T13:16:29.770Z",
-  "end": "2023-10-27T13:16:53.501Z",
+  "start": "2023-10-27T13:17:05.292Z",
+  "end": "2023-10-27T13:17:38.363Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "firefox",
@@ -10,8 +10,8 @@
     "moz:geckodriverVersion": "0.33.0",
     "moz:headless": true,
     "moz:platformVersion": "6.2.0-1015-azure",
-    "moz:processID": 2202,
-    "moz:profile": "/tmp/rust_mozprofileC6Thwa",
+    "moz:processID": 2058,
+    "moz:profile": "/tmp/rust_mozprofilevgW1Y1",
     "moz:shutdownTimeout": 60000,
     "moz:webdriverClick": true,
     "moz:windowless": false,
@@ -26,33 +26,33 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "f7869b10-9500-494d-8af7-a5c68a6adda2"
+    "sessionId": "5e51e067-62ee-4c84-88f7-b690e7e5c867"
   },
   "host": "0.0.0.0",
-  "port": 37463,
+  "port": 33945,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 23731,
+  "duration": 33071,
   "suites": [
     {
       "title": "Search Test",
-      "duration": 12483,
-      "start": "2023-10-27T13:16:39.243Z",
-      "end": "2023-10-27T13:16:51.726Z",
+      "duration": 20794,
+      "start": "2023-10-27T13:17:12.909Z",
+      "end": "2023-10-27T13:17:33.703Z",
       "tests": [
         {
           "title": "Search for a product",
-          "start": "2023-10-27T13:16:39.244Z",
-          "end": "2023-10-27T13:16:51.703Z",
-          "duration": 12459,
+          "start": "2023-10-27T13:17:12.910Z",
+          "end": "2023-10-27T13:17:33.697Z",
+          "duration": 20787,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412611931.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412654608.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found",
-            "stack": "Error: Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found\n    at async SearchPage.getSearchResultLabelText (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:10:16)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.004878050800279254:12:22)"
+            "stack": "Error: Can't call getText on element with selector \"[class*=\"search-heading\"]\" because element wasn't found\n    at async SearchPage.getSearchResultLabelText (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/pages/search.page.js:10:16)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/search.spec.js?invalidateCache=0.2061106841637672:12:22)"
           }
         }
       ],

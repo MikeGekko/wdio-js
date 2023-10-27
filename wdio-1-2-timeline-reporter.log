@@ -1,6 +1,6 @@
 {
-  "start": "2023-10-27T13:16:30.396Z",
-  "end": "2023-10-27T13:16:48.745Z",
+  "start": "2023-10-27T13:17:05.651Z",
+  "end": "2023-10-27T13:17:36.437Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "firefox",
@@ -10,8 +10,8 @@
     "moz:geckodriverVersion": "0.33.0",
     "moz:headless": true,
     "moz:platformVersion": "6.2.0-1015-azure",
-    "moz:processID": 2082,
-    "moz:profile": "/tmp/rust_mozprofilel5I8DW",
+    "moz:processID": 2125,
+    "moz:profile": "/tmp/rust_mozprofileP26wZ5",
     "moz:shutdownTimeout": 60000,
     "moz:webdriverClick": true,
     "moz:windowless": false,
@@ -26,28 +26,28 @@
       "script": 30000
     },
     "unhandledPromptBehavior": "dismiss and notify",
-    "sessionId": "61068087-ecfc-4f16-b08e-4426952b0787"
+    "sessionId": "3c3b2e82-1b33-4e1d-95b7-7e6d2b144d76"
   },
   "host": "0.0.0.0",
-  "port": 36109,
+  "port": 46371,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 18349,
+  "duration": 30786,
   "suites": [
     {
       "title": "New tab Test",
-      "duration": 15059,
-      "start": "2023-10-27T13:16:30.401Z",
-      "end": "2023-10-27T13:16:45.460Z",
+      "duration": 18656,
+      "start": "2023-10-27T13:17:05.668Z",
+      "end": "2023-10-27T13:17:24.324Z",
       "tests": [
         {
           "title": "Switch tab",
-          "start": "2023-10-27T13:16:30.401Z",
-          "end": "2023-10-27T13:16:45.458Z",
-          "duration": 15057,
+          "start": "2023-10-27T13:17:05.669Z",
+          "end": "2023-10-27T13:17:24.318Z",
+          "duration": 18649,
           "state": "passed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412606125.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412646762.jpeg"
           ]
         }
       ],

@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-27T13:16:16.660Z",
-  "end": "2023-10-27T13:16:29.361Z",
+  "start": "2023-10-27T13:16:49.016Z",
+  "end": "2023-10-27T13:17:02.162Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.117",
     "chrome": {
       "chromedriverVersion": "118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.CX0Etx"
+      "userDataDir": "/tmp/.org.chromium.Chromium.WZ0uWL"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:33705"
+      "debuggerAddress": "localhost:34419"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,33 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "0c445668ca7d8dea43f0ffd93b9c9145"
+    "sessionId": "307789aa27c0c452fb723213bb35db7d"
   },
   "host": "0.0.0.0",
-  "port": 43733,
+  "port": 40167,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 12701,
+  "duration": 13146,
   "suites": [
     {
       "title": "Hover Test",
-      "duration": 10158,
-      "start": "2023-10-27T13:16:18.068Z",
-      "end": "2023-10-27T13:16:28.226Z",
+      "duration": 10239,
+      "start": "2023-10-27T13:16:50.643Z",
+      "end": "2023-10-27T13:17:00.882Z",
       "tests": [
         {
           "title": "Hover mouse over category",
-          "start": "2023-10-27T13:16:18.068Z",
-          "end": "2023-10-27T13:16:28.221Z",
-          "duration": 10153,
+          "start": "2023-10-27T13:16:50.644Z",
+          "end": "2023-10-27T13:17:00.878Z",
+          "duration": 10234,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412589212.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412622111.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "Can't call click on element with selector \"[id=\"fat-menu\"]\" because element wasn't found",
-            "stack": "Error: Can't call click on element with selector \"[id=\"fat-menu\"]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.13005143185273038:9:9)"
+            "stack": "Error: Can't call click on element with selector \"[id=\"fat-menu\"]\" because element wasn't found\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/hover.spec.js?invalidateCache=0.85895880530877:9:9)"
           }
         }
       ],

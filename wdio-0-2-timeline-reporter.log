@@ -1,17 +1,17 @@
 {
-  "start": "2023-10-27T13:16:15.131Z",
-  "end": "2023-10-27T13:16:20.255Z",
+  "start": "2023-10-27T13:16:49.010Z",
+  "end": "2023-10-27T13:16:57.333Z",
   "capabilities": {
     "acceptInsecureCerts": false,
     "browserName": "chrome",
     "browserVersion": "118.0.5993.117",
     "chrome": {
       "chromedriverVersion": "118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216})",
-      "userDataDir": "/tmp/.org.chromium.Chromium.kq5Zv7"
+      "userDataDir": "/tmp/.org.chromium.Chromium.LaFKZc"
     },
     "fedcm:accounts": true,
     "goog:chromeOptions": {
-      "debuggerAddress": "localhost:35001"
+      "debuggerAddress": "localhost:43435"
     },
     "networkConnectionEnabled": false,
     "pageLoadStrategy": "normal",
@@ -30,33 +30,33 @@
     "webauthn:extension:minPinLength": true,
     "webauthn:extension:prf": true,
     "webauthn:virtualAuthenticators": true,
-    "sessionId": "cff42ab2845bacb6c970f19215a68872"
+    "sessionId": "3f0a2340e48e7615aa4ad1091436a46f"
   },
   "host": "0.0.0.0",
-  "port": 42547,
+  "port": 33825,
   "baseUrl": "https://rozetka.com.ua",
   "framework": "mocha",
-  "duration": 5124,
+  "duration": 8323,
   "suites": [
     {
       "title": "New tab Test",
-      "duration": 4137,
-      "start": "2023-10-27T13:16:15.135Z",
-      "end": "2023-10-27T13:16:19.272Z",
+      "duration": 6913,
+      "start": "2023-10-27T13:16:49.026Z",
+      "end": "2023-10-27T13:16:55.939Z",
       "tests": [
         {
           "title": "Switch tab",
-          "start": "2023-10-27T13:16:15.135Z",
-          "end": "2023-10-27T13:16:19.259Z",
-          "duration": 4124,
+          "start": "2023-10-27T13:16:49.026Z",
+          "end": "2023-10-27T13:16:55.923Z",
+          "duration": 6897,
           "state": "failed",
           "screenshots": [
-            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412580156.jpeg"
+            "/home/runner/work/wdio-js-ghactions/wdio-js-ghactions/reports/report/file-1698412617256.jpeg"
           ],
           "error": {
             "type": "Error",
             "message": "No window found with title, url or name matching \"/ROZETKA/\"",
-            "stack": "Error: No window found with title, url or name matching \"/ROZETKA/\"\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/newTab.spec.js?invalidateCache=0.31924495585080415:9:9)"
+            "stack": "Error: No window found with title, url or name matching \"/ROZETKA/\"\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Context.<anonymous> (file:///home/runner/work/wdio-js-ghactions/wdio-js-ghactions/test/specs/newTab.spec.js?invalidateCache=0.691895898502257:9:9)"
           }
         }
       ],
